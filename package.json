@@ -1,0 +1,33 @@
+{
+  "name": "task-htmlminifier",
+  "version": "0.1.0",
+  "main": "lib/htmlminifier.js",
+  "description": "Minify HTML files with html-minifier.",
+  "homepage": "https://github.com/taskjs/task-htmlminifier",
+  "bugs": "https://github.com/taskjs/task-htmlminifier/issues",
+  "author": {
+    "name": "Yuanyan Cao",
+    "email": "yuanyan.cao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taskjs/task-htmlminifier"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords": [
+    "task",
+    "htmlminifier"
+  ],
+  "dependencies": {
+    "execution": "^0.1.2",
+    "html-minifier": "^0.6.3",
+    "record": "^0.2.0"
+  },
+  "scripts": {
+    "test": "node test/htmlminifier_test"
+  }
+}
